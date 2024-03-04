@@ -28,10 +28,14 @@
 В проекте используются переменные окружения. В рабочей директории необходимо создать файл .env с полями:
 
 ```
-PG_USER=
-PG_PASSWORD=
-NGINX_EXTERNAL_PORT=
-EMAIL_HOST_USER= 
+DB_ENGINE=django.db.backends.postgresql
+DB_NAME=
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+DB_HOST=db
+DB_PORT=5432
+NGINX_EXTERNAL_PORT=8000
+EMAIL_HOST_USER=
 EMAIL_HOST_PASSWORD=
 ```
 
